@@ -45,7 +45,7 @@ body{
     position:relative;
     min-height:300px;
     margin-bottom:30px;
-    background-repeat:none;
+    background-repeat:no-repeat;
 }
 
 #showcase h1{
@@ -59,7 +59,7 @@ body{
 #main{
     float:left;
     width:100%;
-    background:#333;
+    background:floralwhite;
     color:#fff
     padding:10px;
     box-sizing:border-box;
@@ -78,4 +78,9 @@ body{
         width:100%;
         float:none;
     }
+}
+
+img {
+    height: auto;
+    width: 300px;
 }
